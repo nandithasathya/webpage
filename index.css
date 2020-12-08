@@ -1,0 +1,258 @@
+body {
+  font-family: Quicksand;
+  background-color: white;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+.top_nav {
+  width: 100%;
+  height: 100px;
+  color: black;
+}
+.top_nav .n {
+  color: #c1a7e2;
+  font-size: 50px;
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+.top_nav .s {
+  color: #7e7e7e;
+  font-size: 50px;
+  margin-top: 1vw;
+}
+
+.top_nav {
+  display: grid;
+  grid-template-columns: 6vw 8vw 7vw;
+}
+
+.top_nav .home {
+  position: absolute;
+  font-size: 20px;
+  margin-left: 75vw;
+  margin-top: 2.5vw;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a :hover {
+  color: #7e7e7e;
+}
+.top_nav .projects {
+  position: absolute;
+  font-size: 20px;
+  margin-left: 76vw;
+  margin-top: 2.5vw;
+}
+.top_nav .resume {
+  position: absolute;
+  font-size: 20px;
+  margin-left: 76.5vw;
+  margin-top: 2.5vw;
+}
+
+.intro {
+  position: absolute;
+  margin-left: 1.5vw;
+  margin-top: 3vw;
+  line-height: 1vw;
+  color: #000;
+  font-size: 21px;
+}
+
+.about {
+  position: absolute;
+  margin-left: 1.5vw;
+  margin-top: 12vw;
+  line-height: 2vw;
+  color: #7e7e7e;
+  font-size: 21px;
+}
+
+img {
+  position: absolute;
+  width: 25vw;
+  height: 35vw;
+  margin-left: 68.5vw;
+  margin-top: 3vw;
+}
+
+.line {
+  position: absolute;
+  width: 50%;
+  margin-top: 38.5vw;
+  color: solid, 0.5px, #7e7e7e;
+}
+
+.contact {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 40.5vw;
+  margin-left: 1.5vw;
+  color: #7e7e7e;
+}
+.me {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 40.5vw;
+  margin-left: 6vw;
+  color: #c1a7e2;
+}
+
+.insta img {
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  margin-top: 42vw;
+  margin-left: 0.75vw;
+}
+.twitter img {
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  margin-top: 42.1vw;
+  margin-left: 3.5vw;
+}
+.linkedin img {
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  margin-top: 42vw;
+  margin-left: 6vw;
+}
+
+.blob1 img {
+  position: absolute;
+  margin-left: -20vw;
+  margin-top: -19vw;
+  width: 40%;
+  height: 60vw;
+  z-index: -1;
+}
+
+.blob2 img {
+  position: absolute;
+  margin-left: 60vw;
+  margin-top: -45vw;
+  width: 40%;
+  height: 60vw;
+  z-index: -1;
+}
+
+.blob3 img {
+  position: absolute;
+  margin-left: 75vw;
+  margin-top: 28vw;
+  width: 40%;
+  height: 60vw;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .top_nav {
+    display: grid;
+    grid-template-columns: 6vw 8vw 7vw;
+  }
+
+  .top_nav .home {
+    position: absolute;
+    font-size: 15px;
+    margin-left: 60vw;
+    margin-top: 2.5vw;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a :hover {
+    color: #7e7e7e;
+  }
+  .top_nav .projects {
+    position: absolute;
+    font-size: 15px;
+    margin-left: 65vw;
+    margin-top: 2.5vw;
+  }
+  .top_nav .resume {
+    position: absolute;
+    font-size: 15px;
+    margin-left: 70vw;
+    margin-top: 2.5vw;
+  }
+
+  .intro {
+    position: absolute;
+    margin-left: 1.5vw;
+    margin-top: 45vw;
+    line-height: 1vw;
+    color: #000;
+    font-size: 17px;
+  }
+
+  .about {
+    position: absolute;
+    margin-left: 1.5vw;
+    margin-top: 55vw;
+    line-height: 4vw;
+    color: #7e7e7e;
+    font-size: 17px;
+  }
+
+  img {
+    position: absolute;
+    width: 25vw;
+    height: 35vw;
+    margin-left: 37vw;
+    margin-top: 3vw;
+  }
+
+  .line {
+    position: absolute;
+    width: 50%;
+    margin-top: 110vw;
+    color: solid, 0.5px, #7e7e7e;
+  }
+  .contact {
+    position: absolute;
+    font-size: 17px;
+    margin-top: 115vw;
+    margin-left: 1.5vw;
+    color: #7e7e7e;
+  }
+  .me {
+    position: absolute;
+    font-size: 17px;
+    margin-top: 115vw;
+    margin-left: 13vw;
+    color: #c1a7e2;
+  }
+
+  .insta img {
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    margin-top: 120vw;
+    margin-left: 1vw;
+  }
+  .twitter img {
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    margin-top: 120.1vw;
+    margin-left: 5.5vw;
+  }
+  .linkedin img {
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    margin-top: 120vw;
+    margin-left: 10vw;
+  }
+}
